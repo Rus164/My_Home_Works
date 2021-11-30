@@ -1,0 +1,12 @@
+#!/bin/bash
+
+cd 1
+mkdir {01..03}
+cd 01
+touch rew{01..02}.json
+touch xxx{01..03}.txt
+mkdir red{01..03}
+ls -la
+cd ..
+mv ./01/{xxx01.txt,xxx02.txt} ./02/
+
